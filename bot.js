@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "--";
+const prefix = "!";
 /////////////////////////
 ////////////////////////
 
@@ -46,7 +46,7 @@ client.on('message', async msg =>{
 
 
       client.on('ready', () => {
-              client.user.setActivity("--play | by MrSOKA", {type: 'LISTENING'});
+              client.user.setActivity("!play | by MrSOKA", {type: 'LISTENING'});
      
       });
 
