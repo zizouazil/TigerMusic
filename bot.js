@@ -43,6 +43,13 @@ client.on('message', async msg =>{
     msg.channel.send(embed);
     }
 });
+
+
+      client.on('ready', () => {
+              client.user.setActivity("Tplay | by MrSOKA", {type: 'LISTENING'});
+     
+      });
+
 /////////////////////////
 ////////////////////////
 //////////////////////
